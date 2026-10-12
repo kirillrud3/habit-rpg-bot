@@ -1,0 +1,6 @@
+aiogram>=3.15,<4
+aiosqlite>=0.20
+python-dotenv>=1.0
+aiohttp-socks>=0.9  # для PROXY_URL=socks5://...
+tzdata>=2024.1  # база часовых поясов (нужна на Windows)
+pytest>=8.0
